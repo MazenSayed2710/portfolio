@@ -14,9 +14,6 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "Portfolio | Mazen Mohamed",
   description: "Mazen Mohamed's Portfolio",
-  icons: {
-    icon: "/profile.jpg", // This should be in the `public/` folder
-  },
 };
 
 export default function RootLayout({ children }) {

@@ -1,10 +1,24 @@
 import Image from "next/image";
 import { FiExternalLink, FiGithub } from "react-icons/fi";
 import { HiArrowSmRight } from "react-icons/hi";
-
-function Project({ project }) {
+import { motion } from "framer-motion";
+function Project({ project, animationKey }) {
   return (
-    <div className="max-w-sm bg-zinc-800 border border-blue-400 hover:border-blue-300 hover:rotate-2 transition rounded-lg shadow-2xl overflow-hidden group hover:shadow-2xl  duration-300">
+    <motion.div
+      initial={{ scale: 0.5 }}
+      animate={{ scale: 1 }}
+      // initial={animationKey !== "React" ? { scale: 0.5 } : { x: 0 }}
+      // animate={
+      //   animationKey !== "React"
+      //     ? { scale: 1 }
+      //     : project.id !== 3
+      //     ? { x: [600, 0] }
+      //     : { y: [3000, 0], x: [-3000, 0] }
+      // }
+      transition={{ duration: 0.2 }}
+      key={animationKey}
+      className="max-w-sm bg-transparent border border-blue-400 hover:border-blue-300 hover:rotate-2 transition rounded-lg shadow-2xl overflow-hidden group hover:shadow-2xl  duration-300"
+    >
       <div className="w-full h-48 overflow-hidden relative">
         <Image
           src={project.image}
@@ -54,7 +68,7 @@ function Project({ project }) {
           <HiArrowSmRight className="ml-1" size={20} />
         </a>
       </div>
-    </div>
+    </motion.div>
   );
 }
 

@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <section
       id="home"
-      className="bg-zinc-800 sm:mx-40 min-h-screen px-4 py-10 sm:py-10 sm:px-16"
+      className="bg-zinc-800 2xl:mx-40 min-h-screen px-4 py-10 sm:py-10 sm:px-16"
     >
       <Header />
       <Info />

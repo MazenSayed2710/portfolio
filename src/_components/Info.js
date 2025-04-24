@@ -49,13 +49,14 @@ function Info() {
             <FaFacebook />
           </Link>
         </div>
-        <Link
+        <a
           href="/resume.pdf"
-          className="w-36 py-3 px-5 bg-blue-600 hover:bg-blue-700 text-gray-200 font-semibold rounded
+          download
+          className="w-36 py-3 px-5 bg-blue-600 hover:bg-blue-700 text-gray-300 font-semibold rounded
                      transition-colors duration-200"
         >
-          View Resume
-        </Link>
+          Download Resume
+        </a>
       </div>
     </div>
   );
