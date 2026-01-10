@@ -27,7 +27,7 @@ export const projects = [
     title: "Restaurant App",
     description:
       "A responsive food ordering app with authentication, cart system, and Stripe integration. Built using React.js, Redux, and React Router.",
-    demo: "https://restaurant-app-gamma-murex.vercel.app/",
+    demo: "https://restaurant-website-eight-tan.vercel.app/",
     github: "https://github.com/MazenSayed2710/restaurant-app",
     more: "/projects/restaurant-app",
     tools: "React",
