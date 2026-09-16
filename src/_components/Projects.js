@@ -8,7 +8,7 @@ export default function Projects() {
   const filteredProjects =
     filter === "All Projects"
       ? projects
-      : projects.filter((project) => project.tools === filter);
+      : projects.filter((project) => project.tools.includes(filter));
 
   return (
     <section

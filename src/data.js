@@ -1,6 +1,28 @@
 export const projects = [
   {
     id: 1,
+    image: "/movix.png",
+    title: "Movix App",
+    description:
+      "A responsive movie and TV show discovery app with authentication, search, favorites, and watchlist features. Built using Next.js, TypeScript, Tailwind CSS, and TMDB API.",
+    demo: "https://movix-app-jade-psi.vercel.app/",
+    github: "https://github.com/MazenSayed2710/Movix-App.git",
+    more: "/projects/movix-app",
+    tools: ["Next.js", "TypeScript", "Tailwind CSS"],
+  },
+  {
+    id: 2,
+    image: "/gamehub.png",
+    title: "GameHub App",
+    description:
+      "A modern gaming discovery platform built with Next.js 16, TypeScript, and the RAWG API. Browse trending, top-rated, and newly released games through a clean, responsive interface inspired by modern gaming platforms.",
+    demo: "https://gaming-hub-eight-gamma.vercel.app/",
+    github: "https://github.com/MazenSayed2710/gaming-hub.git",
+    more: "/projects/gamehub-app",
+    tools: ["Next.js", "TypeScript", "Tailwind CSS"],
+  },
+  {
+    id: 3,
     image: "/ecommerce.png",
     title: "E-Commerce Web App",
     description:
@@ -8,10 +30,10 @@ export const projects = [
     demo: "https://ecommerce-website-weld-two.vercel.app/",
     github: "https://github.com/MazenSayed2710/ecommerce-website",
     more: "/projects/landing‐page‐2",
-    tools: "Next.js",
+    tools: ["Next.js", "Supabase", "Tailwind CSS"],
   },
   {
-    id: 2,
+    id: 4,
     image: "/the-wild-oasis.png",
     title: "The Wild Oasis",
     description:
@@ -19,18 +41,18 @@ export const projects = [
     demo: "https://the-wild-oasis-dashboard.vercel.app/",
     github: "https://github.com/MazenSayed2710/the-wild-oasis",
     more: "/projects/wild-oasis",
-    tools: "React",
+    tools: ["React", "Supabase", "Tailwind CSS"],
   },
   {
-    id: 3,
+    id: 5,
     image: "/restaurant.png",
     title: "Restaurant App",
     description:
       "A responsive food ordering app with authentication, cart system, and Stripe integration. Built using React.js, Redux, and React Router.",
     demo: "https://restaurant-website-eight-tan.vercel.app/",
-    github: "https://github.com/MazenSayed2710/restaurant-website.git",
+    github: "https://github.com/MazenSayed2710/Restaurant.git",
     more: "/projects/restaurant-app",
-    tools: "React",
+    tools: ["React", "Redux", "React Router"],
   },
 ];
 

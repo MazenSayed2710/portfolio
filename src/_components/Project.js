@@ -61,7 +61,7 @@ function Project({ project, animationKey }) {
       {/* “more →” Link */}
       <div className="px-6 pb-6">
         <a
-          href={project.more}
+          href={project.demo}
           className="inline-flex items-center text-blue-400 hover:text-blue-200 font-medium transition-colors"
         >
           more
