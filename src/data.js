@@ -38,7 +38,7 @@ export const projects = [
     title: "The Wild Oasis",
     description:
       "A hotel booking dashboard with authentication, dark mode, advanced filtering, and interactive charts, built using React.js, Supabase, and Tailwind CSS.",
-    demo: "https://the-wild-oasis-dashboard.vercel.app/",
+    demo: "https://the-wild-oasis-gamma-sage.vercel.app/",
     github: "https://github.com/MazenSayed2710/the-wild-oasis",
     more: "/projects/wild-oasis",
     tools: ["React", "Supabase", "Tailwind CSS"],
